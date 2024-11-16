@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="297dp"
+        android:layout_height="165dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hui2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="385dp"
+        android:layout_height="67dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="沈星回"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="48dp"
+        android:layout_weight="8"
+        android:text="菲罗斯星的王子,沈星回曾是临空市的特警，后来成为了猎人协会的深空猎人。他拥有强大的技能和战斗力，沈星回在战斗中不断成长和进步，他与主角一起面对各种危险和挑战。两人之间的默契和信任也在战斗中不断加深。
+沈星回作为菲罗斯星的王子，肩负着保护家园和人民的职责。然而，他的命运却充满了未知和变数,这也是他寻找你的第214个春天。在故事中，他需要做出许多重要的抉择，这些抉择也影响着他和主角的未来。"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.405" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

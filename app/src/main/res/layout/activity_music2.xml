@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".music_2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_height="75dp"
+        android:text="MUSIC" />
+
+    <Button
+        android:id="@+id/B_musci1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="start music" />
+
+    <Button
+        android:id="@+id/B_musci2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="stop music" />
+</LinearLayout>
